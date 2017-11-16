@@ -12,3 +12,9 @@ header, .divider {
   background-image: url(images/the-flatiron-building.png);
   color: white;
 }
+
+h4 a {
+  font-size: 18px;
+  font-weight: normal;
+  color: white;
+}
