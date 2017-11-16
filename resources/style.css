@@ -15,16 +15,9 @@ h3 {
   font-size: 23px;
 }
 
-.copyright, .copyright a {
-  background-color: dimgray;
-  font-size: 11px;
-  color: white;
-  text-align: left;
-}
-
-/* Larger font size of copyright links not specified in redline but clear from design: */
-.copyright a {
-  font-size: 16px;
+/* Lower line-height of nav items enables background image not to repeat vertically. */
+nav {
+  line-height: 16px;
 }
 
 p {
@@ -33,6 +26,11 @@ p {
 
 h1, h2, h3 {
   font-weight: bold;
+}
+
+/* Larger font size of copyright links not specified in redline but clear from design: */
+.copyright a {
+  font-size: 16px;
 }
 
 header, .divider {
@@ -45,4 +43,11 @@ h4 a {
 /* font-weight not specified in redline but is clear from design */
   font-weight: normal;
   color: white;
+}
+
+.copyright, .copyright a {
+  background-color: dimgray;
+  font-size: 11px;
+  color: white;
+  text-align: left;
 }
