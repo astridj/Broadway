@@ -15,6 +15,7 @@ header, .divider {
 
 h4 a {
   font-size: 18px;
+/* font-weight not specified in redline but is clear from design */
   font-weight: normal;
   color: white;
 }
